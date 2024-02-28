@@ -1,0 +1,37 @@
+{
+ 
+  "userElement":{
+    "inputFormLink":  ".dropdown-toggle:contains('Input Forms')",
+    "inputFormSubmit": "a[href='./input-form-demo.html']:contains('Input Form Submit')",
+    "firstNameField": "input[name='first_name']",
+    "lastNameField":"input[name='laat_name']",
+    "emailfield": "input[name='email']",
+    "PhoneField":"input[name='phone']",
+    "AddressField":"input[name='address']",
+    "cityField":"input[name='city']",
+    "statField":"input[name='state']",
+    "zipcodeField":"input[name='zip']",
+    "websiteField":"input[name='website]",
+    "hostingButton":"input[name='hosting']:contains('No')",
+    "projectDescription":"input[name='comment']",
+    "sendButtonField":"button[type='submit']:contains('Send')"
+
+
+  },
+  "userData":{
+    "firstName": "",
+    "lastName":"",
+    "emailf": "",
+    "PhoneField":"",
+    "AddressField":"",
+    "cityField":"",
+    "statField":"",
+    "zipcodeField":"",
+    "websiteField":"",
+    "hostingButton":"",
+    "projectDescription":"",
+    "sendButtonField":""
+
+
+  }
+}
