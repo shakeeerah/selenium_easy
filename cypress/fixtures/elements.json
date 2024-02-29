@@ -2,18 +2,17 @@
  
   "userElement":{
     "inputFormLink":  ".dropdown-toggle:contains('Input Forms')",
-    "inputFormSubmit": "a[href='./input-form-demo.html']:contains('Input Form Submit')",
+    "inputFormSubmit": "li[class ='dropdown open'] li:nth-child(5)",
     "firstNameField": "input[name='first_name']",
-    "lastNameField":"input[name='laat_name']",
+    "lastNameField":"input[name='last_name']",
     "emailfield": "input[name='email']",
-    "PhoneField":"input[name='phone']",
-    "AddressField":"input[name='address']",
+    "phoneField":"input[name='phone']",
+    "addressField":"input[name='address']",
     "cityField":"input[name='city']",
-    "statField":"input[name='state']",
     "zipcodeField":"input[name='zip']",
-    "websiteField":"input[name='website]",
-    "hostingButton":"input[name='hosting']:contains('No')",
-    "projectDescription":"input[name='comment']",
+    "websiteField":"input[name='website']",
+    "hostingButton":"input[value='no']",
+    "projectDescription":"textarea[name='comment']",
     "sendButtonField":"button[type='submit']:contains('Send')"
 
 

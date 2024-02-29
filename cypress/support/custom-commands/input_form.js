@@ -1,5 +1,12 @@
 import { faker } from '@faker-js/faker';
 
+const randomNum = Math.floor(Math.random()*99)
+const email = faker.internet.email({
+    firstName: "meezlape+",
+    lastName: randomNum,
+    provider: "gmail.com"
+})
+
 
 
 let selector
@@ -22,10 +29,22 @@ Cypress.Commands.add('typeAText', (textField, text)=>{
 Cypress.Commands.add('inputForms', () =>{
     cy.clickAnElement(selector.inputFormLink)
     cy.clickAnElement(selector.inputFormSubmit)
-    cy.typeAtext(selector.firstNameField, faker.phone.number())
-    cylog(faker.phone.number())
+    cy.typeAText(selector.firstNameField, faker.person.firstName())
+    cy.typeAText(selector.lastNameField, faker.person.lastName())
+    cy.typeAText(selector.emailfield, email)
+    cy.typeAText(selector.phoneField, faker.phone.number('222#######'))
+    cy.typeAText(selector.addressField, faker.location.streetAddress())
+    cy.typeAText(selector.cityField, faker.location.city())
+    cy.get('select').select('Arizona')
+    cy.typeAText(selector.zipcodeField, faker.location.zipCode())
+    cy.typeAText(selector.websiteField, faker.internet.domainName())
+    cy.clickAnElement(selector.hostingButton)
+    cy.typeAText(selector.projectDescription, faker.lorem.sentence(5))
+    cy.clickAnElement(selector.sendButtonField)
+   
+
+   
 
     
 })
 
-h
