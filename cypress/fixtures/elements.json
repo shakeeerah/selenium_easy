@@ -17,20 +17,30 @@
 
 
   },
-  "userData":{
-    "firstName": "",
-    "lastName":"",
-    "emailf": "",
-    "PhoneField":"",
-    "AddressField":"",
-    "cityField":"",
-    "statField":"",
-    "zipcodeField":"",
-    "websiteField":"",
-    "hostingButton":"",
-    "projectDescription":"",
-    "sendButtonField":""
+  "userElementList":{
+    "listBox":  ".dropdown-toggle:contains('List Box')",
+    "bootstarpListBox": "li[class='dropdown open'] li:nth-child(1) a:nth-child(1)",
+    "bootStrapDualList": "div[class='dual-list list-left col-md-5'] li:nth-child(1)",
+    "dapibusAcFacilisisIn": "div[class='dual-list list-left col-md-5'] li:nth-child(2)",
+    "morbiLeoRisus": "div[class='dual-list list-left col-md-5'] li:nth-child(3)",
+    "PortaAcConsecteturAc": "div[class='dual-list list-left col-md-5'] li:nth-child(4)",
+    "VestibulumAtEros": "div[class='dual-list list-left col-md-5'] li:nth-child(5)",
+    "crasJustoOdio": "div[class='dual-list list-right col-md-5'] li:nth-child(1)",
+    "dapibusAcFacilisisInR": "div[class='dual-list list-right col-md-5'] li:nth-child(2)",
+    "morbiLeoRisusR": "div[class='dual-list list-right col-md-5'] li:nth-child(3)",
+    "PortaAcConsecteturAcR": "div[class='dual-list list-right col-md-5'] li:nth-child(4)",
+    "VestibulumAtErosR": "div[class='dual-list list-right col-md-5'] li:nth-child(5)",
+    "rightArrowButton": "button[class = 'btn btn-default btn-sm move-right']",
+    "leftArrowButton": "button[class = 'btn btn-default btn-sm move-left']",
+    "leftCheckBox": ".well.text-right #listhead a[title ='select all']",
+    "rightCheckBox": "div[class='well'] i[class='glyphicon glyphicon-unchecked']",
+    "leftSearchField": "input[name ='SearchDualList']:nth-child(2)",
+    "rightSearchField": "input[name ='SearchDualList']:nth-child(1)",
+    "newmorbiLeoRisusR": "div[class='dual-list list-left col-md-5'] li:nth-child(8)"
 
+
+
+  
 
   }
 }
